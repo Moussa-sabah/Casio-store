@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { provide, ref } from 'vue';
-import { onMounted } from 'vue';
+
 import Sidebar from './components/Sidebar.vue';
 
 
@@ -8,7 +8,6 @@ const toggleSidebar = ref(false)
 
 function showSidebar() {
     toggleSidebar.value = true
-
 }
 function hideSidebar() {
     toggleSidebar.value = false

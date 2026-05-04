@@ -3,11 +3,11 @@ import { inject, ref } from 'vue';
 
 const showSidebar = inject('showSidebar')
 
-const circleScale = ref(0)
+const circleScale = ref<number>(0)
 const circlePositonX = ref('0')
 const circlePositonY = ref('0')
 
-function showCircle() {
+function showCircle () {
     circleScale.value = 1
     window.addEventListener('mousemove', (e) => {
         circlePositonX.value = `${e.clientX}px`
@@ -47,7 +47,7 @@ function showCircle() {
                 shopping_cart
             </span>
             <button class="md:hidden  flex items-center justify-center">
-                <span @click="showSidebar" @mousemove="showCircle" @mouseleave="circleScale = 0"
+                <span @click="()=>{showSidebar}" @mousemove="showCircle" @mouseleave="circleScale = 0"
                     class="material-symbols-outlined icon">
                     drag_handle
                 </span>
@@ -72,8 +72,8 @@ function showCircle() {
     cursor: pointer;
 }
 
-@media (width>=0){
-    .icon{
+@media (width>=0) {
+    .icon {
         font-size: 24px;
     }
 }
