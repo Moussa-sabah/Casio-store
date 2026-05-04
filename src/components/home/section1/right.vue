@@ -9,9 +9,9 @@
 
         <div class=" relative  flex flex-col items-center justify-center ">
             <div class="flex gap-2 md:gap-5">
-                <img src="../../../../images/image (1).avif"
+                <img src="../../../../public/images/image (1).avif"
                     class="object-cover h-40 w-25 xs:h-50 xs:w-31 sm:h-55 sm:w-35  md:h-80 md:w-50   lg:h-100  lg:w-65 relative image1 rotate-10 ">
-                <img src="../../../../images/image (2).avif"
+                <img src="../../../../public/images/image (2).avif"
                     class="object-cover h-32  w-19 xs:h-40 xs:w-23 sm:h-45 sm:w-26 md:h-60 md:w-35  lg:h-80  lg:w-46  relative -rotate-10 image2  ">
             </div>
             <p class="font-semibold text-sm  md:text-2xl relative name  mt-5 mb-1 xs:mb-0 md:mt-10">Trendy Slick Pro</p>

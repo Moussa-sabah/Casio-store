@@ -10,7 +10,7 @@ const props = defineProps<{
 <template>
     <div
         class="relative card  bg-gray-100  cursor-pointer rounded-2xl w-45 h-55 xs:w-52 sm:w-60 md:w-55   lg:w-70  xl:w-80 xs:h-65 sm:h-70 md:h-70 lg:h-90  xl:h-100 border border-gray-300  hover:border-gray-600   flex flex-col gap-3  px-4 hover:px-5 sm:px-5 sm:hover:px-6 lg:px-7 lg:hover:px-8  justify-center">
-        <img :src=img class=" object-cover h-30 xs:h-35 sm:h-40 md:h-45 lg:h-60   mx-auto" alt="">
+        <img :src= img class=" object-cover h-30 xs:h-35 sm:h-40 md:h-45 lg:h-60   mx-auto" alt="">
 
         <div class="flex flex-col gap-1 xl:gap-2">
             <p class=" text-gray-500 text-[11px] lg:text-[13px] font-medium ">G-SHOCK</p>
