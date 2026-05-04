@@ -112,7 +112,7 @@ function prev() {
         <div class=" w-[90%]   flex items-center z-20">
             <div :style="{ display: slide1 }"
                 class="slide flex items-center justify-center gap-3 sm:gap-5 md:gap-8 lg:gap-10  min-w-full">
-                <img src="../../../../images/BA-110X-7A1_02.jpg"
+                <img src="../../../../public/images/BA-110X-7A1_02.jpg"
                     class="w-25 h-55 xs:w-35 xs:h-70 sm:w-45 sm:h-90 md:h-110 md:w-55 lg:w-60  rounded-2xl object-cover" alt="">
 
 
@@ -134,7 +134,7 @@ function prev() {
             </div>
             <div :style="{ display: slide2 }"
                 class="slide flex items-center justify-center gap-3 sm:gap-5  md:gap-8 lg:gap-10  min-w-full">
-                <img src="../../../../images/BGD-570-IMAGE2_1200x1200.jpg"
+                <img src="../../../../public/images/BGD-570-IMAGE2_1200x1200.jpg"
                     class=" w-25 h-55 xs:w-35 xs:h-70 sm:w-45 sm:h-90 md:h-110  lg:w-60  rounded-2xl object-cover" alt="">
                 <div class=" flex flex-col items-start justify-center  gap-1 xs:gap-3 sm:gap-5  w-1/2">
                     <h1
@@ -153,7 +153,7 @@ function prev() {
             </div>
             <div :style="{ display: slide3 }"
                 class="slide flex items-center justify-center gap-3 sm:gap-5  md:gap-8 lg:gap-10  min-w-full">
-                <img src="../../../../images/image (15).avif"
+                <img src="../../../../public/images/image (15).avif"
                     class="w-25 h-55 xs:w-35 xs:h-70 sm:w-45 sm:h-90 md:h-110  lg:w-60  rounded-2xl object-cover" alt="">
                 <div class=" flex flex-col items-start justify-center gap-1 xs:gap-3 sm:gap-5   w-1/2">
                     <h1
