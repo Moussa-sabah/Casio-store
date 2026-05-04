@@ -26,7 +26,7 @@ function showCircle () {
         <h1 class="font-extrabold text-xl xs:text-2xl md:text-3xl">Casio</h1>
 
 
-        <div class="w-6 h-6 xs:w-8 xs:h-8 bg-black absolute rounded-full circle  translate-x-[-50%] translate-y-[-50%]"
+        <div class="hidden lg:block w-6 h-6 xs:w-8 xs:h-8 bg-black absolute rounded-full circle  translate-x-[-50%] translate-y-[-50%]"
             :style="{ left: circlePositonX, top: circlePositonY, scale: circleScale }">
         </div>
         <ul
@@ -47,7 +47,7 @@ function showCircle () {
                 shopping_cart
             </span>
             <button class="md:hidden  flex items-center justify-center">
-                <span @click="()=>{showSidebar}" @mousemove="showCircle" @mouseleave="circleScale = 0"
+                <span @click="()=>showSidebar" @mousemove="showCircle" @mouseleave="circleScale = 0"
                     class="material-symbols-outlined icon">
                     drag_handle
                 </span>
