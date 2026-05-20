@@ -95,7 +95,7 @@ function prev() {
 <template>
 
     <div :style="{ background: slideBg }"
-        class=" mx-3 xs:mx-5 sm:mx-10 lg:mx-15 h-50 xs:h-60 sm:h-80 md:h-100 bg  rounded-3xl flex items-center justify-between  xs:px-4 sm:px-5 md:px-7 lg:px-10 relative ">
+        class=" mx-5 sm:mx-10 lg:mx-15 h-50 xs:h-60 sm:h-80 md:h-100 bg  rounded-3xl flex items-center justify-between  xs:px-4 sm:px-5 md:px-7 lg:px-10 relative ">
 
 
         <h1 :class="{ casioDark: currentConter === 2 }"

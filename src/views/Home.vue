@@ -33,23 +33,27 @@ import { ref } from 'vue';
 
 <style scoped>
 .section {
-    animation-name: scollAnimation;
-    animation-timing-function: linear;
+    animation: scollAnimation both;
+   
     animation-timeline: view();
-    animation-range: entry 0% cover 20%;
+
 
 }
 
 
 @keyframes scollAnimation {
-    from {
+    0% {
         opacity: 0.5;
         scale: 0.5;
     }
 
-    to {
+    30%,90% {
         opacity: 1;
         scale: 1;
+    }
+    100% {
+        opacity: 0.5;
+        scale: 0.5;
     }
 }
 </style>

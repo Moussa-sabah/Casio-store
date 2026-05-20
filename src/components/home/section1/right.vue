@@ -1,9 +1,9 @@
 <template>
 
-    <div class=" w-[58%]  h-full  relative  overflow-hidden flex items-center justify-center">
+    <div class=" w-[50%]  px-5 sm:px-10 lg:px-15 h-full  relative  overflow-hidden flex items-center justify-center ">
 
         <h1
-            class=" absolute   bottom-27  md:bottom-41 lg:bottom-47 text-white  text-[65px]  md:text-[100px] lg:text-[115px] font-bold -left-33.5 xs:-left-34 md:-left-53 lg:-left-61 unlimate">
+            class=" absolute   bottom-27  hidden lg:block md:bottom-41 lg:bottom-46 text-white  text-[65px]  md:text-[100px] lg:text-[115px] font-bold -left-32.5 xs:-left-34 md:-left-53 lg:-left-60 unlimate">
             ULTIMATE
         </h1>
 

@@ -9,9 +9,9 @@ import Right from './right.vue';
 
 <template>
 
-    <div class=" h-100 md:h-170 xl:min-h-screen bg-[linear-gradient(to_right,white_42%,#E4E4E4_42%_70%,#FAFAFA)] ">
+    <div class=" h-100 md:h-170 xl:min-h-screen bg-[linear-gradient(to_right,white_50%,#E4E4E4_42%_70%,#FAFAFA)] ">
         <Navbar />
-        <div class="h-[80%] flex items-center px-5 sm:px-10 lg-15">
+        <div class="h-[77%] lg:h-[80%] flex items-center">
             <Left />
             <Right />
         </div>

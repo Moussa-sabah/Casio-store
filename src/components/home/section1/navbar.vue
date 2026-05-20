@@ -20,7 +20,7 @@ function showCircle () {
 
 <template>
 
-    <div class=" flex items-center justify-between px-5 sm:px-10 lg:px-15 h-[13%] md:h-[11%]">
+    <div class=" flex items-center justify-between  px-5 sm:px-10 lg:px-15 h-[14%] lg:h-[11%]">
 
 
         <h1 class="font-extrabold text-xl xs:text-2xl md:text-3xl">Casio</h1>
@@ -74,7 +74,7 @@ function showCircle () {
 
 @media (width>=0) {
     .icon {
-        font-size: 24px;
+        font-size: 28px;
     }
 }
 
