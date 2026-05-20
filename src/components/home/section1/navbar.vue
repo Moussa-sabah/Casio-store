@@ -7,7 +7,7 @@ const circleScale = ref<number>(0)
 const circlePositonX = ref('0')
 const circlePositonY = ref('0')
 
-function showCircle () {
+function showCircle() {
     circleScale.value = 1
     window.addEventListener('mousemove', (e) => {
         circlePositonX.value = `${e.clientX}px`
@@ -47,11 +47,17 @@ function showCircle () {
                 shopping_cart
             </span>
             <button class="md:hidden  flex items-center justify-center">
+                <span @mousemove="showCircle" @mouseleave="circleScale = 0" class="material-symbols-outlined icon">
+                    drag_handle
+                </span>
+            </button>
+            <!-- <button class="md:hidden  flex items-center justify-center">
                 <span @click="()=>showSidebar" @mousemove="showCircle" @mouseleave="circleScale = 0"
                     class="material-symbols-outlined icon">
                     drag_handle
                 </span>
-            </button>
+            </button> -->
+
 
         </div>
     </div>

@@ -39,7 +39,7 @@ function upScrolling() {
 <template>
 
 
-    <Sidebar :toggle-sidebar="toggleSidebar" />
+    <!-- <Sidebar :toggle-sidebar="toggleSidebar" /> -->
     <RouterView />
     <button @click="upScrolling" :style="{ display: upButton }"
         class="z-40 shadow-md shadow-gray-400 bg-gray-200 rounded-full h-10 w-10 lg:h-12 lg:w-12 text-xl fixed right-5  bottom-20 flex items-center justify-center">
